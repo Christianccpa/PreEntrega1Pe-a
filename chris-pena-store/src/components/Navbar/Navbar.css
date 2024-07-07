@@ -1,0 +1,36 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       
+}
+
+.navbar {
+    display: flex;
+    height: 120px;
+    background-color: rgb(52, 104, 104);
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item {
+    padding: 2rem;
+}
+
+.navbar a:hover {
+    color: rgb(18, 136, 116);
+}
+
+.navbar a {
+    color: beige;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 5px; 
+}
